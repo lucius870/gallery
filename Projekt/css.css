@@ -3,9 +3,22 @@
     padding: 0;
 }
 
+.bcg{
+    height: 300px;
+    background-image: url("obrazky/background.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    top: 0px;
+    left: 0px;
+    filter: blur(5px) brightness(70%);
+    position: absolute;
+}
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
+    
 }
 
 img{
@@ -14,5 +27,17 @@ img{
     top: 300px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    position: relative;
     
+}
+
+.text-block {
+    
+    position: absolute;
+    top:130px;
+    left:250px;
+    color: white;
+    padding: 5px;  
+    font-size: 20px;
+
 }
