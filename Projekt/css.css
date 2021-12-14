@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .bcg{
@@ -17,7 +18,10 @@
 }
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap:50px 50px;
+    margin-top: 50px;
     
 }
 
@@ -33,10 +37,22 @@ img{
 
 .text-block {
     position: absolute;
-    top:130px;
+    top:150px;
     left:250px;
     color: white;
     padding: 5px;  
-    font-size: 20px;
+    font-size: 15px;
 
+}
+
+.plus {
+    height: 250px;
+    width: 350px; 
+    font-size: 100px;
+    top: 300px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  
 }
