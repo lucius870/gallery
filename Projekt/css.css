@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+img{
+    height: 250px;
+    width: 350px;
+    top: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
