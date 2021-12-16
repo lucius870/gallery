@@ -121,11 +121,12 @@ p{
     left: 50%;   
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    border-radius:  5px;
 }
 
 .modal {
     width: 700px;
-    height: 120px;
+    height: 90px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background: white;
     z-index: 5;
@@ -149,3 +150,32 @@ p{
   .overlay-off {
       display: none;
   }
+
+.add-btn {
+    float: right;
+    background: skyblue;
+    border-radius: 5px ;
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    right: 10px;
+    font-size: 13px;
+       
+}
+.add {
+    position: relative;
+    font-family: Arial;
+    font-size: 20px;
+    top: 10px;
+    left: 10px;
+}
+input{
+    border: 0;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    font-size: 15px;
+}
+
