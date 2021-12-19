@@ -33,6 +33,7 @@ img{
     
 }
 
+
 .text-block {
     position: absolute;
     top:150px;
@@ -40,6 +41,7 @@ img{
     color: white;
     padding: 5px;  
     font-size: 15px;
+    font-family: "Nunito";
 
 }
 
@@ -73,6 +75,7 @@ img{
 }
 p{
     padding-top: 5px;
+    font-family: "Nunito";
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -153,29 +156,41 @@ p{
 
 .add-btn {
     float: right;
-    background: skyblue;
+    background: darkblue;
     border-radius: 5px ;
     width: 70px;
     height: 30px;
     font-size: 15px;
     position: relative;
-    top: 30px;
+    top: 20px;
     right: 10px;
     font-size: 13px;
+    color: white;
+    font-family: "Nunito";
        
 }
 .add {
     position: relative;
-    font-family: Arial;
+    font-family: "Nunito";
     font-size: 20px;
-    top: 10px;
-    left: 10px;
+    top: 15px;
+    left: 15px;
+    font-weight: bolder;
 }
 input{
     border: 0;
     position: relative;
-    top: 30px;
-    left: 10px;
-    font-size: 15px;
+    top: 22px;
+    left: 15px;
+    font-size: 18px;
+    font-family: "Nunito";
+}
+
+hr {
+    background: grey;
+    top: 25px;
+    position:relative;
+    left:13px ;
+    width: 677px;   
 }
 
