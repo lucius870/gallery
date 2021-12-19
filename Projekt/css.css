@@ -86,7 +86,14 @@ p{
     .text-block {
         font-size: 10px;
         left: 100px;
-    }     
+    }  
+    .modal{
+        width: 350px;
+        height: 90px;
+      }
+    .center{
+        
+    }
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -98,6 +105,10 @@ p{
         font-size: 14px;
         left: 100px;
     }
+    .modal{
+        width: 450px;
+        height: 90px;
+      }
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
@@ -109,6 +120,10 @@ p{
       .text-block {
         font-size: 16px;
         left: 150px;
+      }
+      .modal{
+        width: 600px;
+        height: 90px;
       }
   } 
   
@@ -133,6 +148,10 @@ p{
         font-size: 20px;
         left: 250px;
       }
+      .modal{
+      width: 700px;
+      height: 90px;
+    }
   } 
 
 .center{
@@ -146,7 +165,7 @@ p{
 }
 
 .modal {
-    width: 700px;
+    max-width: 700px;
     height: 90px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background: white;
@@ -209,6 +228,6 @@ hr {
     top: 25px;
     position:relative;
     left:13px ;
-    width: 677px;   
+    max-width: 677px;   
 }
 
