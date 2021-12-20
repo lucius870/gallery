@@ -284,4 +284,57 @@ footer{
   background: white;
   z-index: 5;
 }
+.text-addImg{
+  position: relative;
+  font-family: "Nunito";
+  font-size: 20px;
+  top: 15px;
+  left: 15px;
+  font-weight: bolder;
+}
+.drop-images{
+  border: dotted grey;
+  margin: 20px 10px;
+  height: 300px;
+}
+.text-center{
+  font-family: "Nunito";
+  font-size: 15px;
+  color: grey;
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px;
+}
+label{
+  position: relative;
+  background: darkblue;
+  border-radius: 2px ;
+  color: white;
+  font-family: "Nunito"; 
+  cursor: pointer;
+  padding: 5px;
+  left: 39%;
+  
+}
+.img-btn{
+  float: right;
+  background: darkblue;
+  border-radius: 5px ;
+  width: 70px;
+  height: 30px;
+  font-size: 15px;
+  position: relative;
+  color: white;
+  font-family: "Nunito"; 
+  margin-right: 15px;
+  bottom: 10px;
 
+}
+.fa-camera {
+  font-size: 40px;
+  padding-bottom: 5px;
+  color: lightgray;
+  position: relative;
+  left: 47%;
+  margin-top: 60px;
+}
