@@ -207,9 +207,8 @@ p{
     height: 30px;
     font-size: 15px;
     position: relative;
-    top: 20px;
-    right: 10px;
-    font-size: 13px;
+    top: 18px;
+    left: 8px;
     color: white;
     font-family: "Nunito"; 
 }
@@ -236,11 +235,21 @@ hr {
     left:13px ;
     max-width: 677px;   
 }
+.close {
+  float: right;
+  position: relative;
+  bottom: 35px;
+  margin-right: 5px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
 
+}
 .images-container{
   display: grid;
   justify-content: center;
   grid-gap:10px 10px;
+  margin-top: 50px;
 }
 .img{
     position: relative;
@@ -267,3 +276,4 @@ footer{
   display: flex;
   top: 250px;
 }
+
