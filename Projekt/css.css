@@ -51,7 +51,6 @@
 .images{  
     position: relative;
     height: 290px;
-    width: 350px; 
     top: 300px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -79,31 +78,22 @@ p{
     }  
     .modal{
         width: 350px;
-        height: 90px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background: white;
-        z-index: 5;
       }
     .center{
           position: absolute;
           left: 10%;
           top:2130px; 
       }
-      .centerAddImg{
+    .centerAddImg{
         position: absolute;
         left: 5%;
         top:1300px; 
     }
-    
     .images-container{
         grid-template-columns: auto ;
       }
     .addImage{
         width: 400px;
-        height: 400px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background: white;
-        z-index: 5;
       }
   }
   
@@ -118,10 +108,6 @@ p{
     }
     .modal{
         width: 450px;
-        height: 90px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background: white;
-        z-index: 5;
       }
     .center{
         position: absolute;
@@ -138,10 +124,6 @@ p{
       }
       .addImage{
         width: 450px;
-        height: 400px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background: white;
-        z-index: 5;
       }
   }
   
@@ -156,10 +138,6 @@ p{
       }
     .modal{
         width: 600px;
-        height: 90px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background: white;
-        z-index: 5;
       }
     .center{
         margin: 0;
@@ -184,10 +162,6 @@ p{
       }
       .addImage{
         width: 600px;
-        height: 400px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background: white;
-        z-index: 5;
       }
   } 
   
@@ -205,17 +179,10 @@ p{
       }
       .modal{
         width: 700px;
-        height: 90px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background: white;
-        z-index: 5;
+
       }
       .addImage{
         width: 700px;
-        height: 400px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background: white;
-        z-index: 5;
       }
   } 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -232,17 +199,9 @@ p{
       }
       .modal{
       width: 700px;
-      height: 90px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      background: white;
-      z-index: 5;
     }
     .addImage{
       width: 700px;
-      height: 400px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      background: white;
-      z-index: 5;
     }
   } 
   
@@ -263,6 +222,18 @@ p{
 .overlay-off {
       display: none;
   }
+.modal{
+  height: 90px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: white;
+  z-index: 5;
+}
+.addImage{
+  height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: white;
+  z-index: 5;
+}
 .add-btn {
     float: right;
     background: darkblue;
@@ -312,7 +283,7 @@ hr {
 .images-container{
   display: grid;
   justify-content: center;
-  grid-gap:10px 10px;
+  grid-gap:20px 10px;
   margin-top: 50px;
 }
 .img{
@@ -322,6 +293,10 @@ hr {
     position: relative;
     border-radius: 5px;
     top: 300px;
+    transition: 0.3s;
+}
+.img-top :hover{
+  margin-top: -20px;
 }
 .plus-images {
   height: 250px;
