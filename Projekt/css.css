@@ -80,14 +80,30 @@ p{
     .modal{
         width: 350px;
         height: 90px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background: white;
+        z-index: 5;
       }
     .center{
           position: absolute;
           left: 10%;
           top:2130px; 
       }
+      .centerAddImg{
+        position: absolute;
+        left: 5%;
+        top:1300px; 
+    }
+    
     .images-container{
         grid-template-columns: auto ;
+      }
+    .addImage{
+        width: 400px;
+        height: 400px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background: white;
+        z-index: 5;
       }
   }
   
@@ -103,14 +119,29 @@ p{
     .modal{
         width: 450px;
         height: 90px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background: white;
+        z-index: 5;
       }
     .center{
         position: absolute;
         left:20%;
         top:2130px;  
     }
+    .centerAddImg{
+      position: absolute;
+      left: 15%;
+      top: 1250px; 
+  }
     .images-container{
         grid-template-columns: auto ;
+      }
+      .addImage{
+        width: 450px;
+        height: 400px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background: white;
+        z-index: 5;
       }
   }
   
@@ -126,6 +157,9 @@ p{
     .modal{
         width: 600px;
         height: 90px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background: white;
+        z-index: 5;
       }
     .center{
         margin: 0;
@@ -136,8 +170,24 @@ p{
         transform: translate(-50%, -50%);
         border-radius:  5px;
     }
+    .centerAddImg{
+      margin: 0;
+      position: absolute;
+      top: 75%;
+      left: 50%;   
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      border-radius:  5px;
+  }
     .images-container{
         grid-template-columns: auto auto;
+      }
+      .addImage{
+        width: 600px;
+        height: 400px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background: white;
+        z-index: 5;
       }
   } 
   
@@ -156,6 +206,16 @@ p{
       .modal{
         width: 700px;
         height: 90px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background: white;
+        z-index: 5;
+      }
+      .addImage{
+        width: 700px;
+        height: 400px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background: white;
+        z-index: 5;
       }
   } 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -173,15 +233,19 @@ p{
       .modal{
       width: 700px;
       height: 90px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background: white;
+      z-index: 5;
+    }
+    .addImage{
+      width: 700px;
+      height: 400px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background: white;
+      z-index: 5;
     }
   } 
-.modal {
-    max-width: 700px;
-    height: 90px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background: white;
-    z-index: 5;
-}    
+  
 .overlay {
     position: fixed;
     width: 100%;
@@ -276,14 +340,6 @@ footer{
   display: flex;
   top: 250px;
 }
-
-.addImage{
-  width: 700px;
-  height: 400px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background: white;
-  z-index: 5;
-}
 .text-addImg{
   position: relative;
   font-family: "Nunito";
@@ -314,21 +370,19 @@ label{
   cursor: pointer;
   padding: 5px;
   left: 39%;
-  
 }
 .img-btn{
   float: right;
   background: darkblue;
   border-radius: 5px ;
-  width: 70px;
-  height: 30px;
-  font-size: 15px;
+  width: 90px;
+  height: 35px;
+  font-size: 18px;
   position: relative;
   color: white;
   font-family: "Nunito"; 
   margin-right: 15px;
   bottom: 10px;
-
 }
 .fa-camera {
   font-size: 40px;
