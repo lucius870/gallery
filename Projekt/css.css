@@ -27,6 +27,7 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     position: relative; 
+    transition: 0.3s;
 }
 .text-block {
     position: absolute;
@@ -61,6 +62,11 @@
     text-align: center;
     margin: 30px;
     margin-top: 10px;  
+    transition: 0.3s;
+}
+.images :hover {
+  margin-top: -20px;
+
 }
 p{
     padding-top: 5px;
