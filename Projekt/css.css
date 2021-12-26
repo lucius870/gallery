@@ -68,7 +68,7 @@
   margin-top: -20px;
 
 }
-p{
+.gallery-name{
     padding-top: 5px;
     font-family: "Nunito";
 }
@@ -261,7 +261,7 @@ p{
     left: 15px;
     font-weight: bolder;
 }
-input{
+.input-gallery-name{
     border: 0;
     position: relative;
     top: 22px;
@@ -269,8 +269,10 @@ input{
     font-size: 18px;
     font-family: "Nunito";
 }
-hr {
-    background: grey;
+hr{
+  background: grey;
+}
+.hr-galleries {
     top: 25px;
     position:relative;
     left:13px ;
@@ -342,7 +344,7 @@ footer{
   text-align: center;
   margin-bottom: 10px;
 }
-label{
+.image-upload-button{
   position: relative;
   background: darkblue;
   border-radius: 2px ;
