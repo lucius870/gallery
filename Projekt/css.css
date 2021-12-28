@@ -27,7 +27,7 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     position: relative; 
-    transition: 0.3s;
+
 }
 .text-block {
     position: absolute;
@@ -49,7 +49,7 @@
     justify-content: center;
     margin: 30px;
 }
-.images{  
+.gallery{  
     position: relative;
     height: 290px;
     top: 300px;
@@ -62,11 +62,30 @@
     text-align: center;
     margin: 30px;
     margin-top: 10px;  
-    transition: 0.3s;
-}
-.images :hover {
-  margin-top: -20px;
 
+}
+.images{  
+  position: relative;
+  height: 290px;
+  top: 300px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 20px;
+  text-align: center;
+  margin: 30px;
+  margin-top: 10px;  
+}
+.gallery-hover-efect{
+  position: relative;
+  transition: top 0.3s ease-in-out;
+  top: 300px;
+}
+.gallery-hover-efect :hover{
+  bottom: 10px;
+  top:-10px;
 }
 .gallery-name{
     padding-top: 5px;
@@ -95,7 +114,7 @@
         left: 5%;
         top:1300px; 
     }
-    .images-container{
+    .gallery-container{
         grid-template-columns: auto ;
       }
     .add-image-modal{
@@ -125,7 +144,7 @@
       left: 15%;
       top: 1250px; 
   }
-    .images-container{
+    .gallery-container{
         grid-template-columns: auto ;
       }
       .add-image-modal{
@@ -163,7 +182,7 @@
       transform: translate(-50%, -50%);
       border-radius:  5px;
   }
-    .images-container{
+    .gallery-container{
         grid-template-columns: auto auto;
       }
       .add-image-modal{
@@ -180,7 +199,7 @@
         font-size: 18px;
         left: 200px;
       }
-      .images-container{
+      .gallery-container{
         grid-template-columns: auto auto;
       }
       .modal{
@@ -196,7 +215,7 @@
       .grid-container{
           grid-template-columns: auto auto auto;
       }
-      .images-container{
+      .gallery-container{
         grid-template-columns: auto auto auto;
       }
       .text-block {
@@ -262,12 +281,15 @@
     font-weight: bolder;
 }
 .input-gallery-name{
-    border: 0;
+    border:0;
     position: relative;
     top: 22px;
     left: 15px;
     font-size: 18px;
     font-family: "Nunito";
+}
+input:focus { 
+  outline: none;
 }
 hr{
   background: grey;
@@ -288,7 +310,7 @@ hr{
   cursor: pointer;
 
 }
-.images-container{
+.gallery-container{
   display: grid;
   justify-content: center;
   grid-gap:20px 10px;
@@ -306,7 +328,7 @@ hr{
 .img-top :hover{
   margin-top: -20px;
 }
-.plus-images {
+.plus-gallery {
   height: 250px;
   width: 350px; 
   font-size: 100px;
@@ -331,7 +353,7 @@ footer{
   left: 15px;
   font-weight: bolder;
 }
-.drop-images{
+.drop-gallery{
   border: dotted grey;
   margin: 20px 10px;
   height: 300px;
