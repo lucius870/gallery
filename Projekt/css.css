@@ -90,7 +90,7 @@
           left: 10%;
           top:2130px; 
       }
-    .centerAddImg{
+    .center-add-img{
         position: absolute;
         left: 5%;
         top:1300px; 
@@ -98,7 +98,7 @@
     .images-container{
         grid-template-columns: auto ;
       }
-    .addImage{
+    .add-image-modal{
         width: 400px;
       }
   }
@@ -120,7 +120,7 @@
         left:20%;
         top:2130px;  
     }
-    .centerAddImg{
+    .center-add-img{
       position: absolute;
       left: 15%;
       top: 1250px; 
@@ -128,7 +128,7 @@
     .images-container{
         grid-template-columns: auto ;
       }
-      .addImage{
+      .add-image-modal{
         width: 450px;
       }
   }
@@ -154,7 +154,7 @@
         transform: translate(-50%, -50%);
         border-radius:  5px;
     }
-    .centerAddImg{
+    .center-add-img{
       margin: 0;
       position: absolute;
       top: 75%;
@@ -166,7 +166,7 @@
     .images-container{
         grid-template-columns: auto auto;
       }
-      .addImage{
+      .add-image-modal{
         width: 600px;
       }
   } 
@@ -187,7 +187,7 @@
         width: 700px;
 
       }
-      .addImage{
+      .add-image-modal{
         width: 700px;
       }
   } 
@@ -206,7 +206,7 @@
       .modal{
       width: 700px;
     }
-    .addImage{
+    .add-image-modal{
       width: 700px;
     }
   } 
@@ -234,7 +234,7 @@
   background: white;
   z-index: 5;
 }
-.addImage{
+.add-image-modal{
   height: 400px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background: white;
