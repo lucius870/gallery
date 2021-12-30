@@ -51,6 +51,7 @@
 }
 .gallery{  
     position: relative;
+    width: auto;
     height: 290px;
     top: 300px;
     border-bottom-left-radius: 10px;
@@ -78,14 +79,11 @@
   margin: 30px;
   margin-top: 10px;  
 }
-.gallery-hover-efect{
-  position: relative;
-  transition: top 0.3s ease-in-out;
-  top: 300px;
+.gallery-hover-efect .gallery{
+  transition: all 0.3s ease-in-out;
 }
-.gallery-hover-efect :hover{
-  bottom: 10px;
-  top:-10px;
+.gallery-hover-efect:hover .gallery {
+  transform: scale(1.05);
 }
 .gallery-name{
     padding-top: 5px;
