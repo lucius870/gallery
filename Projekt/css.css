@@ -79,13 +79,12 @@
   margin-top: 10px;  
 }
 .gallery-hover-efect{
-  position: relative;
+
   transition: top 0.3s ease-in-out;
-  top: 300px;
+
 }
 .gallery-hover-efect :hover{
-  bottom: 10px;
-  top:-10px;
+  transform: scale(1,1.1);
 }
 .gallery-name{
     padding-top: 5px;
