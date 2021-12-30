@@ -79,10 +79,10 @@
   margin: 30px;
   margin-top: 10px;  
 }
-.gallery-hover-efect .gallery{
+.gallery-hover-efect {
   transition: all 0.3s ease-in-out;
 }
-.gallery-hover-efect:hover .gallery {
+.gallery-hover-efect:hover {
   transform: scale(1.05);
 }
 .gallery-name{
