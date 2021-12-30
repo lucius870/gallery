@@ -52,7 +52,6 @@
 }
 .gallery{  
     position: relative;
-    width: auto;
     height: 290px;
     top: 300px;
     border-bottom-left-radius: 10px;
@@ -104,6 +103,9 @@
     .add-image-modal{
         width: 400px;
       }
+    .image-upload-button{
+       left: 32%;
+      }
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -133,6 +135,9 @@
       }
       .add-image-modal{
         width: 450px;
+      }
+      .image-upload-button{
+        left: 35%;
       }
   }
   
@@ -172,6 +177,9 @@
       .add-image-modal{
         width: 600px;
       }
+      .image-upload-button{
+        left: 39%;
+      }
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
@@ -193,6 +201,9 @@
       .add-image-modal{
         width: 700px;
       }
+      .image-upload-button{
+        left: 39%;
+      }
   } 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
@@ -212,6 +223,9 @@
     .add-image-modal{
       width: 700px;
     }
+      .image-upload-button{
+        left: 39%;
+      }
   } 
   
 .overlay {
@@ -359,7 +373,7 @@ footer{
   font-family: "Nunito"; 
   cursor: pointer;
   padding: 5px;
-  left: 39%;
+
 }
 .img-btn{
   float: right;
