@@ -21,6 +21,7 @@
     gap:30px 30px;
     margin-top: 50px;
 }
+
 .img-gallery{
     height: 250px;
     width: 350px;
@@ -51,6 +52,7 @@
 }
 .gallery{  
     position: relative;
+
     height: 290px;
     top: 300px;
     border-bottom-left-radius: 10px;
@@ -62,29 +64,12 @@
     text-align: center;
     margin: 30px;
     margin-top: 10px;  
-
 }
-.images{  
-  position: relative;
-  height: 290px;
-  top: 300px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  font-size: 20px;
-  text-align: center;
-  margin: 30px;
-  margin-top: 10px;  
+.gallery-hover-efect {
+  transition: all 0.3s ease-in-out;
 }
-.gallery-hover-efect{
-
-  transition: top 0.3s ease-in-out;
-
-}
-.gallery-hover-efect :hover{
-  transform: scale(1,1.1);
+.gallery-hover-efect:hover {
+  transform: scale(1.05);
 }
 .gallery-name{
     padding-top: 5px;
@@ -113,11 +98,14 @@
         left: 5%;
         top:1300px; 
     }
-    .gallery-container{
+    .images-container{
         grid-template-columns: auto ;
       }
     .add-image-modal{
         width: 400px;
+      }
+      .image-upload-button{
+       left: 32%;
       }
   }
   
@@ -143,11 +131,14 @@
       left: 15%;
       top: 1250px; 
   }
-    .gallery-container{
+  .images-containe{
         grid-template-columns: auto ;
       }
-      .add-image-modal{
+    .add-image-modal{
         width: 450px;
+      }
+    .image-upload-button{
+        left: 35%;
       }
   }
   
@@ -181,11 +172,14 @@
       transform: translate(-50%, -50%);
       border-radius:  5px;
   }
-    .gallery-container{
+  .images-container{
         grid-template-columns: auto auto;
       }
       .add-image-modal{
         width: 600px;
+      }
+      .image-upload-button{
+        left: 39%;
       }
   } 
   
@@ -198,7 +192,7 @@
         font-size: 18px;
         left: 200px;
       }
-      .gallery-container{
+      .images-container{
         grid-template-columns: auto auto;
       }
       .modal{
@@ -208,13 +202,16 @@
       .add-image-modal{
         width: 700px;
       }
+      .image-upload-button{
+        left: 39%;
+      }
   } 
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
       .grid-container{
           grid-template-columns: auto auto auto;
       }
-      .gallery-container{
+      .images-container{
         grid-template-columns: auto auto auto;
       }
       .text-block {
@@ -226,6 +223,9 @@
     }
     .add-image-modal{
       width: 700px;
+    }
+    .image-upload-button{
+      left: 39%;
     }
   } 
   
@@ -253,6 +253,7 @@
   z-index: 5;
 }
 .add-image-modal{
+
   height: 400px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background: white;
@@ -309,7 +310,7 @@ hr{
   cursor: pointer;
 
 }
-.gallery-container{
+.images-container{
   display: grid;
   justify-content: center;
   grid-gap:20px 10px;
@@ -324,10 +325,10 @@ hr{
     top: 300px;
     transition: 0.3s;
 }
-.img-top :hover{
+.images :hover{
   margin-top: -20px;
 }
-.plus-gallery {
+.plus-images {
   height: 250px;
   width: 350px; 
   font-size: 100px;
@@ -352,7 +353,7 @@ footer{
   left: 15px;
   font-weight: bolder;
 }
-.drop-gallery{
+.drop-images{
   border: dotted grey;
   margin: 20px 10px;
   height: 300px;
@@ -373,7 +374,7 @@ footer{
   font-family: "Nunito"; 
   cursor: pointer;
   padding: 5px;
-  left: 39%;
+
 }
 .img-btn{
   float: right;
