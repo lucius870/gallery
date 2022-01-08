@@ -336,6 +336,16 @@ margin-top: 50px;
   border-radius: 5px;
   top: 300px;
   transition: 0.3s;
+
+}
+.img_selected{
+  position: relative;
+  height: 250px;
+  width: 350px;
+  position: relative;
+  border-radius: 5px;
+  top: 300px;
+  transition: 0.3s;
   z-index: 11;
 }
   
@@ -411,16 +421,27 @@ position: relative;
 left: 47%;
 margin-top: 60px;
 }
-ul{
+.menu{
   list-style-type: none;
+   z-index: 15;
+  color: white;
+  font-size: 13px; 
+  position: absolute;
+  left: 560px;
+  bottom: 180px;
+}
+.option_menu{
+  background-color: black;
+  opacity: 85%;
+  padding: 8px 8px;
+  margin-bottom: 2px;
+  border-radius: 10px;
+}
+a{
+  text-decoration: none;
+  color: white;
   font-family: "Nunito";
 }
-.edit_images{
-  position: absolute;
-  color: white;
-  z-index: 15;
-  background-color: black;
-  opacity: 70%;
-  width: 150px;
-  font-size: 15px;
+li{
+  display: flex;
 }
