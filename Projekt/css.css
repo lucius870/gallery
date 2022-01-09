@@ -129,6 +129,10 @@ transform: scale(1.05);
   .image-upload-button{
      left: 32%;
     }
+    .img_menu{
+      left: 5px;
+      bottom: 1150px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -161,6 +165,10 @@ transform: scale(1.05);
     }
     .image-upload-button{
       left: 35%;
+    }
+    .img_menu{
+      left: 355px;
+      bottom: 1180px;
     }
 }
 
@@ -203,6 +211,10 @@ transform: scale(1.05);
     .image-upload-button{
       left: 39%;
     }
+    .img_menu{
+      left: 355px;
+      bottom: 350px;
+    }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -227,6 +239,10 @@ transform: scale(1.05);
     .image-upload-button{
       left: 39%;
     }
+    .img_menu{
+      left: 355px;
+      bottom: 350px;
+    }
 } 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -248,6 +264,10 @@ transform: scale(1.05);
   }
     .image-upload-button{
       left: 39%;
+    }
+    .img_menu{
+      left: 355px;
+      bottom: 90px;
     }
 } 
 
@@ -443,12 +463,11 @@ margin-top: 60px;
 }
 .img_menu{
   list-style-type: none;
-   z-index: 15;
+  z-index: 15;
   color: white;
   font-size: 13px; 
-  position: absolute;
-  left: 560px;
-  bottom: 180px;
+  position: relative;
+
 }
 .option_menu{
   background-color: black;
@@ -471,10 +490,9 @@ li{
 .fa-info{
   padding-right: 3px;
 }
-
 .menu{
   list-style-type: none;
-   z-index: 15;
+  z-index: 15;
   color: white;
   font-size: 13px; 
   position: absolute;
