@@ -27,15 +27,9 @@
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   position: relative; 
+
 }
-.gallery_selected{
-  height: 250px;
-  width: 350px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  position: relative; 
-  z-index: 11;
-}
+
 .text-block {
   position: absolute;
   top:150px;
@@ -69,9 +63,8 @@
   text-align: center;
   margin: 30px;
   margin-top: 10px; 
-
 }
-.gallery_menu{  
+.gallery_selected{  
   position: relative;
   height: 290px;
   top: 300px;
@@ -83,7 +76,9 @@
   font-size: 20px;
   text-align: center;
   margin: 30px;
-  margin-top: 10px; 
+  margin-top: 10px;
+  z-index:25;
+  background: white;
 }
 
 .gallery-hover-efect {
@@ -96,6 +91,7 @@ transform: scale(1.05);
 .gallery-name{
   padding-top: 5px;
   font-family: "Nunito";
+
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -316,7 +312,7 @@ transform: scale(1.05);
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.685);
   z-index: 8;
 }
 .modal{
@@ -487,14 +483,15 @@ margin-top: 60px;
   color: white;
   font-size: 13px; 
   position: relative;
+  opacity: 90%;
 
 }
 .option_menu{
   background-color: black;
-  opacity: 85%;
   padding: 8px 8px;
   margin-bottom: 2px;
   border-radius: 10px;
+
 }
 a{
   text-decoration: none;
