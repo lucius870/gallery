@@ -514,3 +514,9 @@ li{
   font-size: 13px; 
   position: relative;
 }
+.option_menu_hover{
+  transition: left 0.75 ease-in;
+}
+.option_menu_hover:hover{
+  margin-left: 5px;
+}
