@@ -350,7 +350,7 @@ hr {
 .images-container {
   display: grid;
   justify-content: center;
-  grid-gap: 20px 10px;
+  grid-gap: 30px 30px;
   margin-top: 50px;
 }
 .images {
