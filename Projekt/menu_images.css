@@ -1,5 +1,37 @@
-.overlay-on {
-  display: block;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .img_menu {
+    left: 5px;
+    bottom: 1150px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .img_menu {
+    left: 355px;
+    bottom: 1180px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .img_menu {
+    left: 355px;
+    bottom: 350px;
+  }
+} 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .img_menu {
+    left: 355px;
+    bottom: 350px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .img_menu {
+    left: 355px;
+    bottom: 90px;
+  }
 }
 .overlay_menu{
 position: fixed;
