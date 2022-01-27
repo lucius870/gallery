@@ -28,7 +28,6 @@
   border-top-right-radius: 15px;
   position: relative;
 }
-
 .text-block {
   position: absolute;
   top: 150px;
@@ -63,7 +62,6 @@
   margin: 30px;
   margin-top: 10px;
 }
-
 .gallery-hover-efect {
   transition: all 0.3s ease-in-out;
 }
@@ -74,7 +72,6 @@
   padding-top: 5px;
   font-family: "Nunito";
 }
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .grid-container {
@@ -95,18 +92,7 @@
     left: 15px;
     top: 180px;
   }
-  .images-container{
-      grid-template-columns: auto ;
-    }
-    .img_menu{
-      left: 0px;
-      bottom: 1150px;
-    }
-    .menu{
-      top: 180px;
-    }
 }
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .grid-container {
@@ -119,7 +105,6 @@
   .images-containe {
     grid-template-columns: auto;
   }
-
   .img_menu {
     left: 355px;
     bottom: 1180px;
@@ -129,7 +114,6 @@
     top: 180px;
   }
 }
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .grid-container {
@@ -189,7 +173,6 @@
     left: 355px;
     bottom: 90px;
   }
-
 }
 .overlay {
   position: fixed;
@@ -208,15 +191,12 @@
 .overlay-off {
   display: none;
 }
-
-
 input:focus {
   outline: none;
 }
 hr {
   background: grey;
 }
-
 .close {
   float: right;
   position: relative;
@@ -246,7 +226,6 @@ hr {
 .images_hover_effect :hover {
   margin-top: -8px;
 }
-
 footer {
   height: 150px;
   width: 100%;
@@ -264,5 +243,3 @@ footer {
   align-items: center;
   justify-content: center;
 }
-
-
