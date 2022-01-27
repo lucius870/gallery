@@ -4,19 +4,18 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background: white;
   z-index: 18;
+  width: 500px;
   padding-bottom: 20px;
-  overflow: auto;
+  border-radius: 5px;
 }
 .center-exif {
+  z-index: 200;
   margin: 0;
   position: fixed;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  border-radius: 5px;
-  background-color: white;
-
 }
 .exif-headline {
   text-align: center;
@@ -31,15 +30,18 @@
   font-size: 18px;
  
 }
-.close_exif {
-    float: right;
-    position: relative;
-    bottom: 35px;
-    margin-right: 5px;
-    font-size: 30px;
-    color: white;
-    cursor: pointer;
-    
-  }
 
+.exif-overflow {
+  overflow: auto;
+}
 
+.exif-close {
+  float: right;
+  position: relative;
+  bottom: 31px;
+  right: 21px;
+  margin-right: 5px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
