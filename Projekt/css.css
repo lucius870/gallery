@@ -87,16 +87,6 @@
   .modal {
     width: 350px;
   }
-  .center {
-    position: absolute;
-    left: 10%;
-    top: 2130px;
-  }
-  .center-add-img {
-    position: absolute;
-    left: 5%;
-    top: 1300px;
-  }
   .images-container {
     grid-template-columns: auto;
   }
@@ -144,16 +134,6 @@
   .modal {
     width: 450px;
   }
-  .center {
-    position: absolute;
-    left: 20%;
-    top: 2130px;
-  }
-  .center-add-img {
-    position: absolute;
-    left: 15%;
-    top: 1250px;
-  }
   .images-containe {
     grid-template-columns: auto;
   }
@@ -184,24 +164,6 @@
   }
   .modal {
     width: 600px;
-  }
-  .center {
-    margin: 0;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    border-radius: 5px;
-  }
-  .center-add-img {
-    margin: 0;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    border-radius: 5px;
   }
   .images-container {
     grid-template-columns: auto auto;
@@ -316,7 +278,24 @@
 .overlay-off {
   display: none;
 }
-
+.center {
+  margin: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+.center-add-img {
+  margin: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
 .modal {
   height: 90px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
