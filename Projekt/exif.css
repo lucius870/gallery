@@ -1,11 +1,11 @@
 .exif-modal {
   max-height: 400px;
+  width: 500px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background: white;
   z-index: 18;
-  width: 500px;
-  overflow: auto;
   padding-bottom: 20px;
+  overflow: auto;
 }
 .center-exif {
   margin: 0;
@@ -16,6 +16,7 @@
   transform: translate(-50%, -50%);
   border-radius: 5px;
   background-color: white;
+
 }
 .exif-headline {
   text-align: center;
@@ -28,4 +29,17 @@
   font-family: "Nunito";
   margin-top: 5px;
   font-size: 18px;
+ 
 }
+.close_exif {
+    float: right;
+    position: relative;
+    bottom: 35px;
+    margin-right: 5px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    
+  }
+
+
