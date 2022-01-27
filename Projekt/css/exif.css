@@ -81,7 +81,30 @@
     width: 500px;
   }
   .exif-close {
-    bottom: 31px;
+    bottom: 5px;
+    right: 1px;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 1030px and up) */
+@media only screen and (min-width: 1030px) {
+  .exif-modal{
+    width: 500px;
+  }
+  .exif-close {
+    bottom: 8px;
+    right: 20px;
+  }
+}
+
+/* Large devices (laptops/desktops, 1067px and up) */
+@media only screen and (min-width: 1067px) {
+  .exif-modal{
+    width: 500px;
+  }
+  .exif-close {
+    bottom: 35px;
     right: 23px;
   }
 }
