@@ -211,7 +211,6 @@ footer {
   bottom: 20px;
   right: 20px;
   background-color: black;
-  touch-action: manipulation;
   width: auto;
   height: 50px;
   border-radius: 5px;
