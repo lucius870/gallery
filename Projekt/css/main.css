@@ -206,3 +206,24 @@ footer {
   align-items: center;
   justify-content: center;
 }
+.delete{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  touch-action: manipulation;
+  width: auto;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+  font-family: "Nunito";
+  z-index: 50;
+}
+.fa-trash{
+  padding-right: 5px;
+}
