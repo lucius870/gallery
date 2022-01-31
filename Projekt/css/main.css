@@ -219,7 +219,6 @@ footer {
   padding: 5px;
   font-size: 15px;
   font-family: "Nunito";
-  z-index: 50;
 }
 
 .btn-container {
@@ -229,6 +228,7 @@ footer {
   display: flex;
   flex-direction: row;
   gap: 5px;
+  z-index: 50;
 }
 
 .btn-close {
