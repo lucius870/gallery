@@ -206,23 +206,37 @@ footer {
   align-items: center;
   justify-content: center;
 }
-.delete{
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
+
+.btn-black {
   background-color: black;
-  width: auto;
-  height: 40px;
-  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: auto;
+  height: 40px;
+  border-radius: 5px;
   color: white;
   padding: 5px;
   font-size: 15px;
   font-family: "Nunito";
   z-index: 50;
 }
+
+.btn-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.btn-close {
+  padding-right: 4px;
+  padding-bottom: 1px;
+  font-size: 22px
+}
+
 .fa-trash{
   padding-right: 5px;
 }
